@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+  }
+  
+html, body{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(../images/main-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }

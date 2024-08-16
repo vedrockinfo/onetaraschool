@@ -1,0 +1,56 @@
+/*Regestration Form*/
+.reg-form {
+    background-color: $colorWhite;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    form {
+        padding: 40px 30px;
+        .form-group {
+            margin-bottom: 5px
+        }
+    }
+    .form-heading {
+        background-color: $colorSecondary;
+        padding: 40px 0;
+        border-radius: 0 0 20px 20px;
+        h2 {
+            text-transform: uppercase;
+            font-size: 35px;
+            font-weight: 700;
+            color: $colorWhite;
+        }
+        span {
+            display: block;
+            font-family: "Roboto", sans-serif;
+            font-size: 12px;
+            letter-spacing: 0;
+            margin-top: 10px;
+        }
+    }
+    .btn-primary {
+        display: block;
+        background-color: $colorSecondary;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 0;
+        border: none;
+        outline: none;
+        padding: 15px 0;
+        margin-top: 20px;
+        &:hover{
+                background-color: #dba000;
+        }
+    }
+    .form-control {
+        background-color: #fafafa;
+        border-radius: 0;
+        border: none;
+        border: 1px solid #eee;
+        outline: none;
+        box-shadow: none;
+        padding: 12px;
+    }
+}

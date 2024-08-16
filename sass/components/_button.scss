@@ -1,0 +1,19 @@
+.default-btn{
+    background-color: #fab702;
+    color: #fff;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0 25px;
+    border-radius: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default-btn:hover{
+    background-color: #dba000;
+    color: #fff;
+}
+.default-btn.btn_sm{
+    line-height: 40px;
+    padding: 0 15px;
+}
